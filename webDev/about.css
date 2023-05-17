@@ -1,0 +1,100 @@
+/* h1{
+    text-align: center;
+    font-weight: 700;
+    text-decoration:underline overline wavy red ;
+    letter-spacing: 20px;
+    font-size:50px;
+    font-family:geneva,optima,century gothic;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 2;
+} */
+
+/* *{
+    color:pink;
+    background-color: cyan;
+} */
+h1,h2{
+    color:red;
+}
+
+    button{
+        font-size: 30px;
+        background-color: #003049;
+        color: #eae2b7
+    }
+
+body{
+    color: #d62828;
+}
+
+#spc{
+    background-color:red;
+}
+
+#dis{
+    color:#fcbf49;
+}
+
+span{
+    color: #a2d2ff
+}
+
+.syst{
+    background-color:#e63946 ;
+    color: #f1faee;
+}
+
+footer a{
+    color: aquamarine;
+}
+
+/* h2 + button{
+    font-size: 20px;
+    background-color: #fcbf49;
+} */
+
+footer > a{
+    color:brown;
+}
+
+input[type="password"]{
+    color:greenyellow;
+}
+
+button:hover{
+    color:black;
+    background-color: black;
+}
+
+button :active{
+    background-color: cyan;
+}
+
+a:hover{
+    color:orange;
+}
+
+a:active{
+    background-color: forestgreen;
+}
+
+.post:nth-of-type(2n){
+    background-color: wheat;
+}
+
+p::first-line{
+    color:black;
+}
+h2::first-letter{
+    color:blueviolet;
+}
+p::selection{
+    color:#80ff00;
+    background-color: #192e04;
+}

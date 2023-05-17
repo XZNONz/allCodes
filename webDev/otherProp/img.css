@@ -1,0 +1,31 @@
+body{
+    font-family: roboto,sans-serif;
+}
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+section {
+    width: 805;
+    height: 800px;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhqbLG2ONPoYA9jca0N6Su_JkYKQYtSK2lHg&usqp=CAU");
+    background-size:cover;
+    background-position: top; */
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhqbLG2ONPoYA9jca0N6Su_JkYKQYtSK2lHg&usqp=CAU") no-repeat, blue;
+
+}
+
+h2,h3{
+    font-family: 'roboto mono',sans-serif;
+    font-weight: 400;
+}
+
+h2+h3{
+    margin-top:10px;
+}
+
+div{
+    width: 60%;
+    margin:  0 auto;
+}

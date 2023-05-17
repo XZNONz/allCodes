@@ -1,0 +1,150 @@
+html{
+    font-size: 15px;
+}
+body{
+    margin:0px;
+}
+div{
+    width:200px;
+    height: 200px;
+}
+
+#this{
+    text-transform: uppercase;
+    width:355px;
+    text-align: center;
+    background-color: pink;
+    margin-top:0;
+}
+
+#one{
+    background-color: #05668D;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-top:20px;
+    margin-bottom:30px;
+    margin-left:40px;
+}
+#two{
+    background-color: #028090;
+    border-width: 6px;
+    border-color: violet;
+    border-style: dotted;
+    border-left-color: black;
+    box-sizing:border-box;
+    border-radius: 20% 50% /21%;
+    padding:10px;
+    margin:50px;
+}
+#three{
+    background-color: #00A896;
+    border: 10px dashed green;
+    box-sizing:border-box;
+    border-radius: 10%;
+}
+
+button{
+    padding:10px 0px 12px 20px;
+    margin-left:10px;
+}
+
+.deetxz{
+    width: 200px;
+    height:100px;
+    background-color: olivedrab;
+    border:5px solid black;
+    display: inline-block;
+    padding-top:10px;
+    margin:50px;
+}
+section{
+    width: 500px;
+    height: 500px;
+    background-color: #05668D;
+}
+
+#dmn{
+    width: 200px;
+    height: 50%;
+    background-color: forestgreen;
+}
+
+h2{
+    font-size: 30px;
+    border:3px solid black;
+    line-height: 200%;
+}
+
+article h2{
+    text-align:center;
+    width: 500px;
+   font-size: 5em;
+   margin-left: 1em;
+}
+h3{
+    font-size: 1.5em;
+}
+article{
+    font-size: 15px;
+}
+
+.ems button{
+    background-color: aquamarine;
+    font-size:1em;
+    padding: 0 1em;
+    border:0.1em solid black;
+    border-radius: 2em;
+}
+
+.rms h2{
+    font-size: 3rem;
+    background-color: coral;
+}
+.rms h3{
+    font-size: 2rem;
+    background-color: cornsilk;
+    border: .5rem solid black;
+    width: 25%;
+}
+
+.rms button{
+    font-size: 0.8rem;
+    padding:0 0.5rem;
+    border:0.3rem solid black;
+    border-radius: 0.8rem;
+    background-color:gold;
+}
+
+.rms p{
+    font-size: 1rem;
+}
+
+.rms ul{
+    font-size: 1.3rem;
+}
+
+#rgba{
+    background-color: blueviolet;
+    border:0.25rem solid black;
+}
+#rgba div{
+    width:50%;
+    height: 50%;
+    background-color: rgba(191,213,90,1)
+}
+
+#opacity{
+    background-color: crimson;
+    border:0.25rem solid black;
+    margin-top: 1em;
+}
+
+#opacity div{
+    width:50%;
+    height: 50%;
+    background-color: gold;
+    opacity: 50%;
+}

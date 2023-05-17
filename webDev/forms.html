@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS DEMO</title>
+</head>
+
+<body>
+    <h1>FORMS</h1>
+    <button>outside form</button>
+    <hr>
+    <form action="/type">
+        <p>
+            <label for="username">username:</label>
+            <input id="username" type="text" placeholder="enter username" name="username">
+        </p>
+        <p>
+            <label for="password">password:</label>
+            <input id="password" type="password" placeholder="passowrd" name="pass">
+        </p>
+        <p>
+            <label for="number">enter number:</label>
+            <input id="number" type="number" placeholder="enter a nubmer" name="num">
+        </p>
+        <p>
+            <label for="color">enter color:</label>
+            <input id="color" type="color" name="color">
+        </p>
+        <!-- OR -->
+        <p>
+            <label>enter someting:
+                <input type="text" placeholder="someting">
+            </label>
+        </p>
+        <button>submit</button>
+        <button type="button">click me</button>
+
+        <!-- or make a button using input-->
+        <input type="button" value="click me">
+        <input type="submit">
+        <hr>
+    </form>
+
+    <h2>HIJACkING SHIT</h2>
+    <h3>reddit search</h3>
+    <form action="https://www.reddit.com/search/">
+        <input type="text" name="q">
+        <button>reddit search</button>
+    </form>
+    <form action="https://www.google.com/search?">
+        <input type="text" name="q">
+        <button>google search</button>
+    </form>
+    <form action="https://www.youtube.com/results?">
+        <input type="text" name="search_query">
+        <button>youtube search</button>
+    </form>
+    <form action="https://www.amazon.in/s?">
+        <input type="text" name="k">
+        <button>search amazon</button>
+    </form>
+    <form action="https://www.amazon.com/s?">
+        <input type="text" name="k">
+        <button>search amazon.com</button>
+    </form>
+</body>
+<form action="/balls/">
+    <hr>
+    <p>
+        <input type="checkbox" name="k" id="chbx">
+        <label for="chbx">this</label>
+        <input type="checkbox" name="k" id="chbx2">
+        <label for="chbx2">that</label>
+        <button>enter</button>
+    </p>
+    <hr>
+
+    <p>
+        enter shirt size:
+        <label for="balls">xs</label>
+        <input type="radio" name="nod" id="balls" value="xs" checked>
+        <label for="s">s</label>
+        <input type="radio" name="nod" id="s" value=s>
+        <label for="detz">xl</label>
+        <input type="radio" name="nod" id="detz" value="xl">
+        <button>enter choice</button>
+    </p>
+
+    <p>
+        <label for="meat">enter the meat of your choice</label>
+        <select name="meat" id="meat">
+            <option value="" selected>--select meat--</option>
+            <option value="steak">steak</option>
+            <option value="pork">pork </option>
+            <option value="chicken">chicken</option>
+            <option value="duck">duck</option>
+        </select>
+    </p>
+    <button>submit</button>
+
+    <hr>
+    <label for="volume">volume</label>
+    <input type="range" id="volume" name="vol" min=1 max="20" step="1" value="20">
+    <button>submit</button>
+</form>
+
+<label for="reqs">additional requests</label><br>
+<textarea id="reqs" rows="10" cols="50" name="raq" placeholder="enter your requests"></textarea>
+<form action="/dud/">
+    <p>
+    <label for="usern">username</label>
+    <input type="uesername" name="usr" id="usern"  minlength="5" maxlength="20" required>
+</p><p>
+    <label for="pswrd">password</label>
+    <input type="password" id="pswrd" name="pswr" minlength="8" maxlength="25" required></p>
+    <p>
+        <!-- <label for="eml">enter email</label>
+        <input id="eml" type="email" name="eml" required> -->
+        <label for="urll">enter url</label>
+        <input id="urll" type="url" name="url" required>
+    </p>
+    <button>submit</button>
+
+</form>
+</html>

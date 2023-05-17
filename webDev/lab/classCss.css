@@ -1,0 +1,25 @@
+.one{
+    background-color: yellow;
+    display: inline;
+    border: 1px solid black;
+}
+
+.two{
+    background-color: yellow;
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.three{
+    background-color: yellow;
+    display: block;
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.xoxo{
+    display: block;
+}
